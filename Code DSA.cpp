@@ -74,7 +74,7 @@ void postorder(Node* root) {
 int main() {
     Node* root = createNode("+");
 
-    //Tạo phần bên phải 
+    //Tạo phần bên trái 
     Node* nhan1 = createNode("*");
     Node* a = createNode("a");
     Node* nam = createNode("5");
